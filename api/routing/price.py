@@ -7,3 +7,7 @@ router = APIRouter()
 @router.get("/price")
 def get_price():
     return [CURRENT_PRICE]
+
+
+def  a():
+    pass
